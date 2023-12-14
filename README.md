@@ -15,3 +15,5 @@ Node.js,
 MongoDB,
 Express.js,
 OpenWeatherMap API key
+
+### check the folder "postman test" for testing samples
