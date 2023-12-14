@@ -14,4 +14,4 @@ Installation
 Node.js,
 MongoDB,
 Express.js,
-OpenWeatherMap API key,
+OpenWeatherMap API key
