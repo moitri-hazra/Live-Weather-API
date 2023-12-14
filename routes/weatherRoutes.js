@@ -4,11 +4,11 @@ const { getWeatherByLocationId, weatherHistory } = require('../controllers/weath
 
 const router = Router();
 
-router.get('/', getLocationList);
-router.get('/:locationId', getLocationById );
-router.post('/post', postLocation);
-router.put('/update/:locationId', updateLocation);
-router.delete('/delete/:locationId', deleteLocation);
+router.get('/locations', getLocationList);
+router.get('/locations/:locationId', getLocationById );
+router.post('/locations', postLocation);
+router.put('/locations/:locationId', updateLocation);
+router.delete('/locations/:locationId', deleteLocation);
 
 router.get('/weather/:locationId', getWeatherByLocationId);
 router.get('/history', weatherHistory);
