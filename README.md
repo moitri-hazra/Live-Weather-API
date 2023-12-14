@@ -18,10 +18,10 @@ OpenWeatherMap API key
 
 ## End Points
 
-* Location List -> https://live-weather-api-moitrihazra.onrender.com/
-* Post Location -> https://live-weather-api-moitrihazra.onrender.com/post
-* Update Location -> https://live-weather-api-moitrihazra.onrender.com/update/:locationID
-* Delete Location -> https://live-weather-api-moitrihazra.onrender.com/delete/:locationID
+* Location List -> https://live-weather-api-moitrihazra.onrender.com/locations
+* Post Location -> https://live-weather-api-moitrihazra.onrender.com/locations
+* Update Location -> https://live-weather-api-moitrihazra.onrender.com/locations/:locationID
+* Delete Location -> https://live-weather-api-moitrihazra.onrender.com/locations/:locationID
 * Weather -> https://live-weather-api-moitrihazra.onrender.com/weather/:locationID
   
 ### check the folder "postman test" for testing samples
