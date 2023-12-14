@@ -1,5 +1,9 @@
 const NewLocationModel = require('../models/weatherModel')
 
+module.exports.welcomeMessage = (req, res) => {
+  res.send('Welcome to the Weather API!');
+};
+
 module.exports.getLocationList = async (req, res) => {
     try {
       const locations = await NewLocationModel.find();
