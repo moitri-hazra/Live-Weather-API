@@ -11,7 +11,7 @@ RESTful API: Easy to use endpoints for managing locations and retrieving weather
 Installation
 
 # Technologies used
-Node.js
-MongoDB
-Express.js
-OpenWeatherMap API key
+Node.js,
+MongoDB,
+Express.js,
+OpenWeatherMap API key,
